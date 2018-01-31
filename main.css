@@ -103,7 +103,8 @@ body {
 
 input {
     -webkit-appearance: none;
-    appearance: none;
+    box-shadow: none !important;
+
 }
 
 input:checked + .controls__slider--round {
