@@ -32,7 +32,7 @@ body {
 
 .progress-ring {
 
-    /* this is a hack for mozilla to stop transition on load */
+    /* this is a hack for mozilla to stop transitioning on load */
     stroke-dashoffset: 0%;
 
     -webkit-transition: stroke-dashoffset 0.35s;
@@ -101,6 +101,10 @@ body {
     border-radius: 50%;
 }
 
+input {
+    -webkit-appearance: none;
+}
+
 input:checked + .controls__slider--round {
     background-color: rgb(128, 207, 54);
 }
@@ -111,7 +115,6 @@ input:checked + .controls__slider--round:before {
     transform: translateX(26px);
     background-color: rgb(255, 255, 255);
 }
-
 
 /* Value input */
 .controls__progress-value {
