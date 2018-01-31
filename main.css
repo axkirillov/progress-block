@@ -20,6 +20,8 @@ body {
     flex-direction: row;
     width: 90vw;
     height: 90vh;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .progress-block{
