@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Progress</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Progress ring -->
+        <div class="progress-block">
+            <svg
+                height="240"
+                width="240"
+            >
+                <circle
+                    class="progress-ring--background"
+                    stroke="#f0efef"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="100"
+                    cx="120"
+                    cy="120"
+                />
+                <circle
+                    class="progress-ring"
+                    stroke="#ffeb3b"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="100"
+                    cx="120"
+                    cy="120"
+                />
+              
+            </svg>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <!-- Progress value input -->
+            <div class ="controls__controlbox">
+                <input class="controls__progress-value" type="text" name="Value" value="60">
+                <p class="controls__legend">Value</p>
+            </div>
+            <!-- Animation switch -->
+            <div class="controls__controlbox">
+                <label class="controls__switch">
+                    <input type="checkbox">
+                    <span class="controls__slider--round"></span>
+                </label>
+                <p class="controls__legend">Animate</p>
+            </div>
+            <!-- Hide switch -->
+            <div class="controls__controlbox">
+                <label class="controls__switch">
+                        <input type="checkbox">
+                        <span class="controls__slider--round"></span>
+                </label>
+                <p class="controls__legend">Hide</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
