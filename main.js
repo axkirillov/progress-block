@@ -56,15 +56,6 @@ toggleAnimate.addEventListener('change', function(e) {
 })
 
 const toggleHide = document.querySelector('.controls__switch--hide');
-// const block = document.querySelector('.progress-block');
-
-// function hide() {
-//   block.style.display = 'none';
-// }
-
-// function show(){
-//   block.style.display = 'initial';
-// }
 
 toggleHide.addEventListener('change', function(e) {
   if(this.checked) {
