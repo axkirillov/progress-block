@@ -64,3 +64,8 @@ toggleHide.addEventListener('change', function(e) {
     progress.hide(false);
   } 
 })
+
+// Prevent saving the toggle switch state on reload
+const inputs = document.getElementsByTagName("input");
+for (var i in inputs)
+    if (inputs[i].type=="checkbox") inputs[i].checked=false;
