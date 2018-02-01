@@ -56,7 +56,7 @@ class ProgressRing {
 // create progress block instance
 const progress = new ProgressRing;
 
-// assign progress value to default input
+// get progress value from default "Value" input
 const input = document.querySelector('.controls__progress-value');
 progress.setValue(input.value);
 
