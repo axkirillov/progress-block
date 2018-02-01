@@ -17,7 +17,7 @@
                 width="240"
             >
                 <circle
-                    class="progress-ring--background"
+                    class="progress-block__ring--background"
                     stroke="#f0efef"
                     stroke-width="10"
                     fill="transparent"
@@ -26,7 +26,7 @@
                     cy="120"
                 />
                 <circle
-                    class="progress-ring"
+                    class="progress-block__ring"
                     stroke="#ffeb3b"
                     stroke-width="10"
                     fill="transparent"
@@ -48,7 +48,7 @@
             <!-- Animation switch -->
             <div class="controls__controlbox">
                 <label class="controls__switch">
-                    <input type="checkbox">
+                    <input type="checkbox" class="controls__switch--animate">
                     <span class="controls__slider--round"></span>
                 </label>
                 <p class="controls__legend">Animate</p>
@@ -56,7 +56,7 @@
             <!-- Hide switch -->
             <div class="controls__controlbox">
                 <label class="controls__switch">
-                        <input type="checkbox">
+                        <input type="checkbox" class="controls__switch--hide">
                         <span class="controls__slider--round"></span>
                 </label>
                 <p class="controls__legend">Hide</p>
