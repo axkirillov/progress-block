@@ -35,10 +35,15 @@ body {
     /* this is a hack for mozilla to stop transitioning on load */
     stroke-dashoffset: 0%;
 
+    /* this is for animated change of progress */
     -webkit-transition: stroke-dashoffset 0.35s;
     transition: stroke-dashoffset 0.35s;
+
+    /* This is to make the start position be at 12 o'clock */
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
+
+    /* this adjusts the center of rotation */
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
